@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.main_container {
+  min-height: 93vh;
+}
+
+.error404 {
+  font-size: 6rem;
+  margin: 15rem 0 0 16rem;
+}
+
+.error404-msg {
+  font-size: 1rem;
+  margin: 1rem 32rem;
+  color: var(--red);
+}
+
+/********** Variable Colors ***********/
+
+:root {
+  --primary-color: #4723d9;
+  --black: #000000;
+  --white: #ffffff;
+  --green: #008000;
+  --darkGreen: #006400;
+  --greenlight: #7cfc00;
+  --red: #ff0000;
+  --darkBlue: #00008b;
+  --darkGray: #a9a9a9;
+  --box-shadow: #000000bf;
+}

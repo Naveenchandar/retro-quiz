@@ -1,0 +1,16 @@
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border-top: 1px solid var(--primary-color);
+  font-size: 1rem;
+  gap: 8px;
+}
+
+.footer_icon i {
+  color: var(--white);
+  padding: 2px;
+}
