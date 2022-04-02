@@ -18,7 +18,7 @@
 }
 
 .card:hover {
-  box-shadow: 10px 10px 5px 0px #000000bf;
+  box-shadow: 10px 10px 5px 0px var(--box-shadow);
   cursor: pointer;
 }
 
