@@ -23,7 +23,7 @@ export default function Card() {
             <p>{description}</p>
             <p>Total Questions: 10 </p>
           </div>
-          <button className="btn-playnow" onClick={() => setCategory(code)}>
+          <button className="btn-playnow" onClick={() => setCategory({ id: code, name: categoryName})}>
             <Link to="/rules">Play now</Link>
           </button>
         </div>

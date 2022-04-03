@@ -1,9 +1,18 @@
-import { CategoryContextProvider } from '.'
+import React from 'react'
+import { CategoryContextProvider, DataContextProvider, NameContextProvider, ResultContextProvider, ScoreContextProvider } from '.'
 
 export const ContextProvider = ({ children }) => (
     <>
         <CategoryContextProvider>
-            {children}
+            <ResultContextProvider>
+                <ScoreContextProvider>
+                    <DataContextProvider>
+                        <NameContextProvider>
+                            {children}
+                        </NameContextProvider>
+                    </DataContextProvider>
+                </ScoreContextProvider>
+            </ResultContextProvider>
         </CategoryContextProvider>
     </>
 )

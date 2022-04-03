@@ -1,0 +1,82 @@
+.rules-container {
+  padding-top: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.rules-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.rules {
+  font-size: 1.2rem;
+  width: 55%;
+  border: 1.5px solid var(--black);
+  padding: 1rem;
+  border-radius: 1.2rem;
+}
+
+.btn-toQuizPage {
+  width: 12rem;
+  font-size: 1.2rem;
+  padding: 6px 4rem;
+  border-radius: 1.5rem;
+  background-color: var(--primary-color);
+}
+
+.btn-toQuizPage:hover {
+  background-color: var(--darkBlue);
+}
+
+.btn-toQuizPage a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.btn-toQuizPage a:hover {
+  color: var(--white);
+}
+
+/******* Name container *****/
+
+.name-container {
+  height: 30vh;
+  width: 35vw;
+  font-size: 1.5rem;
+  border: 1px solid var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 1.2rem;
+}
+
+.submit {
+  width: 12rem;
+  font-size: 1.2rem;
+  padding: 6px 4rem;
+  border-radius: 0.7rem;
+  background-color: var(--primary-color);
+  color: var(--white);
+  cursor: pointer;
+  border: unset;
+}
+
+.submit:hover {
+  background-color: var(--darkBlue);
+}
+
+#username {
+  width: 30rem;
+  font-size: 1.2rem;
+  padding: 6px 1rem;
+  border-radius: 0.7rem;
+}
+
+.error_name {
+  color: var(--red);
+}

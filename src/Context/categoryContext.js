@@ -3,7 +3,9 @@ import React, { useState, createContext, useContext } from "react";
 const CategoryContext = createContext();
 
 const CategoryContextProvider = ({ children }) => {
-  const [category, setCategory] = useState([]);
+  const [category, setCategory] = useState({
+    id: 0, name: ''
+  });
 
   return (
     <div>
