@@ -3,8 +3,8 @@ import "./index.css";
 
 export function NavBar() {
   return (
-    <nav className="navbar space-between">
-      <span className="left space-between">
+    <nav className="navbar space_between">
+      <span className="left space_between">
         <h3 className="third-heading logo">
           <Link to="/">Retro-Quiz</Link>
         </h3>

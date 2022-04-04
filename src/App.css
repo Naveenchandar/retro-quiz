@@ -12,15 +12,22 @@ body {
   min-height: 93vh;
 }
 
-.error404 {
-  font-size: 6rem;
-  margin: 15rem 0 0 16rem;
+.btn_quiz_primary {
+  padding: 8px;
+  display: flex;
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  border-radius: 4px;
+  border: none;
 }
 
-.error404-msg {
-  font-size: 1rem;
-  margin: 1rem 32rem;
-  color: var(--red);
+.btn_quiz_primary a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.btn_quiz_primary:hover {
+  background-color: var(--darkBlue);
 }
 
 /********** Variable Colors ***********/

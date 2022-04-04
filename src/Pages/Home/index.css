@@ -9,11 +9,3 @@
   font-size: 2rem;
   margin: 8px;
 }
-
-/****** mobile version  *****/
-
-@media only screen and (max-width: 800px) {
-  .home_container {
-    min-height: 220vh;
-  }
-}

@@ -3,7 +3,7 @@ import { useCategory } from "../../Context";
 import { categories } from "../../utils/categories";
 import "./index.css";
 
-export default function Card() {
+export function Card() {
   const { setCategory } = useCategory();
   return (
     <div className="card_container">
@@ -11,7 +11,7 @@ export default function Card() {
         <div key={id} className="card">
           <div>
             <img
-              className="card-img"
+              className="card_img"
               src={imageUrl}
               alt={categoryName}
             />
@@ -23,7 +23,7 @@ export default function Card() {
             <p>{description}</p>
             <p>Total Questions: 10 </p>
           </div>
-          <button className="btn-playnow" onClick={() => setCategory(code)}>
+          <button className="btn_quiz_primary" onClick={() => setCategory({ id: code, name: categoryName})}>
             <Link to="/rules">Play now</Link>
           </button>
         </div>

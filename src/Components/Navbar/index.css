@@ -8,20 +8,13 @@
   z-index: 5;
 }
 
-.log a {
-  color: var(--black);
-  text-decoration: none;
-  padding: 8px 1rem;
-  font-size: 1rem;
-}
-
 .logo a {
   text-decoration: none;
   color: var(--white);
   margin-left: 1rem;
 }
 
-.space-between {
+.space_between {
   display: flex;
   justify-content: space-between;
   align-items: center;
