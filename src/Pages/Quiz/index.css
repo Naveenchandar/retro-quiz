@@ -1,0 +1,139 @@
+.container {
+  padding-top: 2vh;
+  min-height: 93vh;
+  display: flex;
+  justify-content: center;
+}
+
+.quiz_container {
+  height: 80vh;
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+}
+
+.question_heading {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ques_score {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.quiz_option {
+  border: none;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  width: 30rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 6px 1rem;
+  color: black;
+}
+
+.quiz_option:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.btn_quit,
+.btn_next {
+  font-size: 1.2rem;
+  padding: 6px 4rem;
+  border-radius: 0.7rem;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  cursor: pointer;
+}
+
+.btn_quit {
+  background-color: var(--red);
+  border: unset;
+}
+
+.btn_next {
+  background-color:  var(--green);
+  border: unset;
+}
+
+.btn_quit:hover {
+  color: var(--red);
+  background-color: var(--white);
+  border: 1px solid var(--red);
+}
+
+.btn_next:hover {
+  color:  var(--green);
+  background-color: var(--white);
+  border: 1px solid var(--green);
+}
+
+.btn_quit a,
+.show_results a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.show_results {
+  font-size: 1.2rem;
+  width: 20rem;
+  padding: 8px 0;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  border: none;
+  margin-top: 1rem;
+}
+
+.show_results:hover {
+  background-color: var(--primary-color);
+}
+
+.show_results:hover a {
+  color: var(--white);
+}
+
+.space_between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green {
+  background-color: var(--greenlight);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.green, .red {
+  color: var(--black);
+  cursor: not-allowed;
+}
+
+.quiz_options_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+}
+
+.quiz_options_section .quiz_option {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.btn_quit a, .btn_next, .btn_quit {
+  color: var(--white);
+}
+
+.btn_quit:hover a {
+  color: var(--red);
+}
