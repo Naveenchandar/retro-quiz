@@ -6,6 +6,9 @@ export const NavRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/result" element={<Result />} />
+            <Route path="/rules" element={<Rules />} />
             <Route
                 path="*"
                 element={

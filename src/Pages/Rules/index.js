@@ -33,7 +33,6 @@ export function Rules() {
 
   const onSubmitInput = (event) => {
     event.preventDefault();
-    debugger
     if (name) {
       setNameError('');
       navigate('/quiz');
