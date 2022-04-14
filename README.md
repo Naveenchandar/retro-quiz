@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="./public/assets/images/retro-quiz-logo.png" alt="Project logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Retro Quiz</h3>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/badge/issues-0-brightgreen)](https://github.com/Naveenchandar/retro-quiz/issues)
+[![GitHub Pull Requests](https://img.shields.io/badge/pull%20requests-0-brightgreen)](https://github.com/Naveenchandar/retro-quiz/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center"> R E T R O - Q U I Z.
+    <br> 
+</p>
 
-### `npm test`
+## 📝 Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [About](#about)
+- [Demo](#demo)
+- [Getting Started](#getting_started)
+- [Screenshot](#screenshot)
+- [Features](#features)
+- [Deployment](#deployment)
+- [Built Using](#built_using)
+- [Authors](#author)
+- [Contribution](#contribution)
+- [Upcoming Features](#upcomingfeatures)
 
-### `npm run build`
+## 🧐 About <a name = "about"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Retro Quiz - A Quiz App. This consists of varieties of quiz on various categories. Feel free to test your knowledge.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Demo <a name = "demo"></a>
+Please visit this [link](https://retro-quiz.netlify.app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-### `npm run eject`
+To run locally, run below command in git terminal.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone https://github.com/Naveenchandar/retro-quiz.git
+```
+Once done with cloning, run `npm start` in command line. You're good to go 🎉.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshot <a name = "screenshot"></a>
+![Retro UI Screenshot](./public/assets/images/categories.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Retro UI Screenshot](./public/assets/images/quiz.png)
+## Features <a name="features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Home Page
+    - Contains landing page with the featured categories.
+- Quizzes by Category
+    - By selecting category, User will be redirected to the rules page with the selected category.
+- Rules Page for while attempting Quiz
+    - Contains rules for the particular quiz.
+- MCQ based Quiz Question Page
+    - User can see a question with multiple options to pick from.
+- Result Page with Answers & Score
+    - Once User completes the quiz, user can view the result page containing scores and answers.
 
-## Learn More
+## 🚀 Deployment <a name = "deployment"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Netlify](https://www.netlify.com/) - Netlify
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⛏️ Built Using <a name = "built_using"></a>
 
-### Code Splitting
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React](https://reactjs.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ✍️ Author <a name = "author"></a>
 
-### Analyzing the Bundle Size
+- [@Naveenchandar](https://github.com/Naveenchandar) - Idea & Initial work
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✍️ Contribution <a name = "contribution"></a>
 
-### Making a Progressive Web App
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/branch`).
+3. Perfom desired changes needed to the code base.
+4. Stage all your changes (`git add .`)
+3. Commit your changes with a proper commit message (`git commit -m 'Add some feature'`)
+4. Push the changes to your branch (`git push origin feature/branch`)
+5. Open new pull request
+6. Add appropriate title and description to your pull request explaining your changes and efforts done.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 
-### Advanced Configuration
+## 🎉 Upcoming Features <a name = "upcomingfeatures"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Dark / Light Mode
+- Selection of levels
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***show some love by [starring](https://github.com/Naveenchandar/retro-quiz) this repo.***
