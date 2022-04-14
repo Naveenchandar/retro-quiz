@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom"
-
-export function ResultCard({ name, score, result, displayScore, dispatchResult }) {
+export function ResultCard({ name, score, result, displayScore }) {
     return (
         <div className="user_result">
             <h1>Score Card</h1>
@@ -11,10 +9,10 @@ export function ResultCard({ name, score, result, displayScore, dispatchResult }
             <p>Not attempted: {10 - result.length}</p>
             <p>Accuracy: {score ? `${Math.round((score * 100) / result.length)}%` : 0}</p>
             <button
-                className="btn_quiz_primary"
-                onClick={dispatchResult}
+                className="review_results"
+                onClick={displayScore}
             >
-                <Link to="/">Play again</Link>
+                Review results
             </button>
         </div>
     )
