@@ -26,13 +26,13 @@ export function Quiz() {
     if (number < 9) {
       setNumber((num) => num + 1);
       setSelected("");
-      resultDispatch({
-        type: "ADDED",
-        payload: { current: data[number], selected: selected },
-      });
     } else {
       navigate("/result")
     };
+    resultDispatch({
+      type: "ADDED",
+      payload: { current: data[number], selected: selected },
+    });
   };
 
   if (error) {
@@ -61,8 +61,7 @@ export function Quiz() {
                     <button
                       disabled={selected}
                       key={currentOption}
-                      className={`quiz_option ${handleSelect(currentOption)
-                        }`}
+                      className={`quiz_option ${handleSelect(currentOption)}`}
                       onClick={() => {
                         setSelected(currentOption);
                         if (currentOption === data[number].correct_answer) {
