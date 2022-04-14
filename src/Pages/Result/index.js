@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { decode } from 'html-entities';
 import { ResultCard } from "../../Components";
 import { useName, useScore, useResult } from "../../Context";
 import ReviewResults from '../../Components/ReviewResults';
